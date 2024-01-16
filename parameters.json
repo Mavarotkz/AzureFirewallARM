@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "routeTables_FWroute_name": {
+            "value": null
+        },
+        "azureFirewalls_AzureFW_name": {
+            "value": null
+        },
+        "virtualNetworks_FWvnet_name": {
+            "value": null
+        },
+        "virtualMachines_Srv_Work_name": {
+            "value": null
+        },
+        "publicIPAddresses_Srv_Jump_ip_name": {
+            "value": null
+        },
+        "publicIPAddresses_Srv_Work_ip_name": {
+            "value": null
+        },
+        "networkInterfaces_srv_work322_z1_name": {
+            "value": null
+        },
+        "networkSecurityGroups_Srv_Work_nsg_name": {
+            "value": null
+        },
+        "publicIPAddresses_AzureFirewall_pip_name": {
+            "value": null
+        }
+    }
+}
